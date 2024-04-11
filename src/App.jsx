@@ -39,7 +39,7 @@ function App() {
                 </div>
                 <div className="container w-full">
 
-                    <div className="overflow-x-hidden rounded-lg h-15">
+                    <div className="overflow-x-hidden rounded-lg h-15 flex flex-col relative">
 
                         <ul
                             ref={scrollRef}
