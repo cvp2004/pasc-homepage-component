@@ -73,33 +73,3 @@ function App() {
 }
 
 export default App;
-
-
-// <div className="relative flex items-center bg-gray-200 h-14 w-full rounded-full overflow-hidden">
-//     <button
-//         className="absolute left-0 ml-1 px-1 hover:bg-sky-100 hover:text-blue-900 text-black w-6 h-6 sm:w-8 sm:h-8 rounded-full text-base backdrop-blur-lg bg-gray-200 bg-opacity-50"
-//         onClick={scrollLeft}
-//     >
-//         {"<"}
-//     </button>
-//     <div className="flex-1 h-full overflow-hidden">
-//         <ul
-//             ref={scrollRef}
-//             className="flex items-center gap-3 h-full overflow-x-auto scroll-smooth whitespace-nowrap pl-10"
-//             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
-//         >
-//             {list.map((item, index) => (
-//                 <li
-//                     key={index}
-//                     className="px-6 py-4 sm:px-8 sm:py-5 lg:px-10 lg:py-6 h-8 sm:h-10 lg:h-12 rounded-full text-white text-xs sm:text-sm lg:text-base bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 flex-shrink-0"
-//                 >
-//                     {item}
-//                 </li>
-//             ))}
-//         </ul>
-//     </div>
-//     <button
-//         className="absolute right-0 mr-1 px-1 hover:bg-sky-100 hover:text-blue-900 text-black w-6 h-6 sm:w-8 sm:h-8 rounded-full text-base backdrop-blur-lg bg-gray-200 bg-opacity-50"
-//         onClick={scrollRight}
-//     >
-//         {'>'}
